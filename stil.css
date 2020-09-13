@@ -1,6 +1,6 @@
 @font-face{
     font-family: digitlaClock;
-    src: url(/fonts/DIGITALDREAMSKEW.ttf);
+    src: url(./fonts/DIGITALDREAMSKEW.ttf);
 }
 
 .day{
