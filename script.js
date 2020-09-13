@@ -2,7 +2,6 @@ setInterval(digitalClock, 1000);
 digitalDate();
 digitalClock();
 
-
 // funkcija za tacno vreme
 function digitalClock(){
     const time = new Date();
@@ -53,7 +52,6 @@ function digitalDate(){
 
 
 // funkcija za promenu teme
-
 function dayOrNight(){
     var element = document.getElementById("thema");
     element.classList.toggle("night"); 
