@@ -40,9 +40,38 @@
     
 }
 
+/* Navigacija flex */
 nav{
     /* background-color: teal; */
-    cursor: pointer;
     font-size: 25px;
     float: right;
+    display: block;
+    width: 100%;
 }
+.navigation ul{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navigation li {
+    list-style: none;
+    justify-content: space-around;
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+
+}
+.fa-moon{
+    flex: 4;
+    text-align: right;
+    cursor: pointer;
+}
+
+.navigation li:hover{
+   
+    text-decoration: underline;
+}
+.navigation a{
+    color: honeydew;
+    text-decoration: none;
+}
+
