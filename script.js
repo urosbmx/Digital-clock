@@ -63,7 +63,17 @@ window.onload = function(){
     document.getElementById("MyElement").addEventListener( 'click', dayOrNight);
 }
 
+// funkcija za timer
 
+
+function testic(){
+    console.log('coas');
+}
+
+qw
+window.onload = function(){
+    document.getElementsByClassName("strat-button").addEventListener('click',testic);
+}
 
 
 
